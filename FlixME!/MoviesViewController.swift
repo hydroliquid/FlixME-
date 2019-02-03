@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Alamofire
+import AlamofireImage
+
 // Step 1 for creating a table cell page, UITable elements in class
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
@@ -70,6 +73,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)
         
+        cell.posterView.af
         
         return cell
     }

@@ -6,7 +6,12 @@ target 'FlixME!' do
   use_frameworks!
 
   # Pods for FlixME!
-  pod "AlamofireImage"
+  pod 'AlamofireImage', '~> 3.5.0'
+  
+  pod 'Alamofire', '~> 4.4'
+  # Add additional dependencies
+  pod 'OAuthSwift', '~> 1.1.0'
+  pod 'OAuthSwiftAlamofire'
 
 
   target 'FlixME!Tests' do
