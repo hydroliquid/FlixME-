@@ -1,0 +1,6 @@
+framework module Pods_FlixME_Tests {
+  umbrella header "Pods-FlixME!Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
